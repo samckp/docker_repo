@@ -42,4 +42,5 @@ Use docker image my_command
 docker version — List info about your Docker Client and Server versions.
 docker login — Log in to a Docker registry.
 docker system prune — Delete all unused containers, unused networks, and dangling images.
-	
+-----------------------------------------------------------
+
