@@ -43,4 +43,8 @@ docker version — List info about your Docker Client and Server versions.
 docker login — Log in to a Docker registry.
 docker system prune — Delete all unused containers, unused networks, and dangling images.
 -----------------------------------------------------------
+docker container ls
+docker image ls
+docker container rm <container_id>
+docker image rm <image_id>
 
