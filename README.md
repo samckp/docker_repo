@@ -16,7 +16,7 @@ Docker rmi "image_id"      # Removes an image
                            # Will fail if there is a running instance of that image i.e. container
 
 Docker rmi -f "image_id"
-
+-----------------------------------------------------------------------	
  
 Containers
 Use docker container my_command
@@ -29,7 +29,7 @@ Use docker container my_command
 	stop — Gracefully stop running container.
 	kill —Stop main process in container abruptly.
 	rm— Delete a stopped container.
-	
+-----------------------------------------------------------------------		
 Images
 Use docker image my_command
 	build — Build an image.
@@ -42,9 +42,10 @@ Use docker image my_command
 docker version — List info about your Docker Client and Server versions.
 docker login — Log in to a Docker registry.
 docker system prune — Delete all unused containers, unused networks, and dangling images.
------------------------------------------------------------
+-----------------------------------------------------------------------	
 docker container ls
 docker image ls
 docker container rm <container_id>
 docker image rm <image_id>
+-----------------------------------------------------------------------	
 
