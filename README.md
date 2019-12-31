@@ -15,7 +15,8 @@ Docker rm "container_id"   # Removes a container
 Docker rmi "image_id"      # Removes an image 
                            # Will fail if there is a running instance of that image i.e. container
 
-## Docker rmi -f "image_id"
+Docker rmi -f "image_id"  # Remove Image forcefully
+
 <br /> 
 ## Containers<br />
 Use docker container my_command<br />
